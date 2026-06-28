@@ -17,5 +17,11 @@ build/
 .ipynb_checkpoints/
 *.db
 
+# Downloaded models (use download.py)
+homework/module-02/models/
+
+# Local tooling
+.code-review-graph/
+
 # Local AI/editor config (not for GitHub)
 CLAUDE.md
