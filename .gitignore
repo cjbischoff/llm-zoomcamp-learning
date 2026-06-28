@@ -2,7 +2,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Environment / secrets
 .env
+.env.local
+.env.*.local
+
 .venv
 venv/
 .DS_Store
@@ -10,3 +15,7 @@ venv/
 dist/
 build/
 .ipynb_checkpoints/
+*.db
+
+# Local AI/editor config (not for GitHub)
+CLAUDE.md

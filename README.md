@@ -1,9 +1,20 @@
 # LLM Zoomcamp Learning
 
-Private workspace for homework, experiments, and notes.
+Homework, experiments, and notes for [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).
+
+## Setup
+
+```bash
+uv sync
+# create .env with OPENAI_API_KEY=sk-...
+```
 
 ## Structure
 
-- `homework/` - Module assignments
-- `notes/` - Learning notes
-- `experiments/` - Exploratory code
+- `homework/module-01/` — Module 01 homework (RAG, chunking, agent)
+- `experiments/` — Lesson practice notebooks and scripts
+- `notes/` — Learning notes
+
+## Stack
+
+Python 3.13, `uv`, Jupyter, minsearch, gitsource, OpenAI, toyaikit
