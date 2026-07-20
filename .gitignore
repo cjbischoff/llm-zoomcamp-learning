@@ -16,6 +16,7 @@ dist/
 build/
 .ipynb_checkpoints/
 *.db
+*.duckdb
 
 # Downloaded models (use download.py)
 homework/module-02/models/
